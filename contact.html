@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LOUDMOUTH || VENUES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="css" media="screen" href="loudmouth.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <style>
+    h1 a
+    {
+        color:rgb(154, 153, 221);
+    }
+    p 
+    {
+        display:block;
+        width:100%;
+        padding-top:90px;
+        padding-left:50px;
+        line-height: 2em;
+    }
+    form
+    {
+        width:75%;
+    }
+    label
+    {
+        display:inline-block;
+    }
+    input
+    {
+        display: inline;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: inherit;
+    }
+    textarea
+    {
+        display:block;
+        font-family:'Courier New', Courier, monospace;
+    }
+</style>
+</head>
+<body>
+        <header><h1 class="gray"><a href="index.html">LOUDMOUTH</a></h1></header>
+        <img class="centerimage" src="venues.jpg" alt="venues header image">
+        <div class="right">
+            <ul>
+                <li><a href="talk.html">TALK</a> &nbsp;</li>
+                <li><a href="news.html">NEWS</a> &nbsp;</li>
+                <li><a href="music.html">MUSIC</a> &nbsp;</li>
+                <li><a href="about.html">ABOUT</a> &nbsp;</li>
+                <li><a class="current" href="contact.html">CONTACT US</a> &nbsp;</li> 
+                <li><a href="venues.html">VENUES</a> &nbsp;</li>
+            </ul>
+        </div>
+<main>
+    <p>BECAUSE THIS SITE IS DESIGNED <br>
+    TO HELP PROMOTE <br>INDIE MUSIC <br>
+    I'D LOVE TO HEAR <br>YOUR RECOMMENDATIONS...<br></p>
+
+    <form action="contact.php" method="POST" enctype="text/plain" >
+
+                
+            <label for="name">name</label><br>
+            <input id="name" type="text" value="" name="name"><br>
+        </div>
+                
+            <label for="email">email</label><br>
+            <input id="email" type="text" value="" name="email">
+        </div>
+  
+    <section>
+        <label for "subject">subject</label><br>
+            <select required size="1" name="subject" id="contactsubject">
+                    <option value="" disabled selected>select your option</option>
+                    <option>submit your band</option>
+                    <option>recommend an artist</option>
+                    <option>correcting misinformation</option>
+                    <option>recommend a venue</option>
+                    <option>career</option>
+                    <option>other</option>
+            </select>
+            </div>
+<br>
+    <div style="display:block;width: 65%;margin-left:200px;margin-right:auto;margin-top:30px">
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" placeholder="Let's talk" cols="30" rows="5"></textarea>
+    </div>
+    </section>
+</form>
+<button type="submit" form="form" name="submit">Submit</button>
+            <footer>
+                    <p class="footer-links footer">
+                            <a href="talk.html">talk</a>
+                            ·
+                            <a href="news.html">news</a>
+                            ·
+                            <a href="music.html">music</a>
+                            ·
+                            <a href="venues.html">venues</a>
+                            ·
+                            <a href="contact.html">contact us</a>
+                            ·
+                            <a href="about.html">about</a>
+                    </p>
+            </footer>

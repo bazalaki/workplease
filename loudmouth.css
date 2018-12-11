@@ -1,0 +1,141 @@
+
+html
+{
+ padding-top: 15px;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #faf7f3;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 70%;
+}
+main
+{
+    padding-bottom: 20px;
+}
+h1 a
+{
+    text-decoration: none;
+}
+h1 a:hover
+{
+    color: black;
+}
+
+li
+{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    max-width: 120px;
+    display:inline-block;
+    text-align: center;
+}
+li a
+{
+    text-decoration: none;
+    color: #ffcc33;
+    font-weight: bold;
+    font-size: 15px;
+}
+li a:hover
+{
+    color: #ff6633;
+    font-weight: bold;
+}
+
+.current
+{
+    color:brown;
+}
+.centerimage
+{
+    display:block;
+    width: 65%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.red
+{
+    color: red;
+}
+.blue
+{
+    color: rgb(0, 174, 255);
+}
+.purple
+{
+    color: rgb(194, 37, 233);
+}
+.lightblue
+{
+    color:rgb(32, 229, 255);
+
+}
+.gray
+{
+    color: gray;
+}
+.green
+{
+    color: green;
+}
+.black
+{
+    color:black;
+}
+td:hover, td a:hover
+{
+    color:gray;
+}
+.right
+{
+    float:right;
+}
+.footer 
+{
+    width: 100%;
+    position:relative;
+    bottom:0;
+    text-align: center;
+}
+.footer-links a
+{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+    color:  inherit;
+}
+.centertext
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container
+{
+    position: relative;
+    text-align: center;
+    color:inherit;
+}
+.card
+{
+    background-color: #ffa5ff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row
+{
+    position: relative;
+    width: 75%;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
